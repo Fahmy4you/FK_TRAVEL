@@ -1,0 +1,16 @@
+{
+  "name": "lomba-jatim",
+  "version": "1.0.0",
+  "description": "Website Pencarian Rekomendasi Pariwisata Di Indonesia",
+  "license": "ISC",
+  "author": "Fahmy & Kirania",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

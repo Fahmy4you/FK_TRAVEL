@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script/headDependencies.js"></script>
+    <link rel="stylesheet" href="/styles/output.css">
+    <title>FK TRAVEL | Kategori Wisata</title>
+</head>
+<body>
+    <header id="navbar-element"></header>
+
+    <section class="pt-30 px-5 min-[450px]:px-10 min-[850px]:px-20">
+        <div class="flex items-center flex-col">
+            <h1 class="text-2xl min-[420px]:text-3xl min-[570px]:text-3xl md:text-4xl font-fredoka font-semibold text-center">Temukan Kategori Wisata Tujuan Favoritmu</h1>
+            <p class="text-[12px] min-[420px]:text-[13px] min-[570px]:text-sm md:text-[15px] text-center mt-2">Jelajahi berbagai destinasi berdasarkan minatmu <b>dari alam, budaya, hingga kuliner</b> yang berada di Indonesia.</p>
+
+            <form class="searchingtext kategoripage">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Cari Kategori Berdasarkan Nama...">
+                </div>
+                <button>Cari <span>Kategori</span></button>
+            </form>
+        </div>
+
+        <div class="grid grid-cols-1 min-[768px]:grid-cols-2 min-[1000px]:grid-cols-3 min-[1300px]:grid-cols-4 min-[1500px]:grid-cols-5 min-[1700px]:grid-cols-6 mt-10 justify-items-center gap-10">
+            <div class="group cardkategoriberanda">
+              <img src="/public/images/wisata/2.jpg"  alt="Category Hotel" class="w-full h-full object-cover absolute z-1"/>
+              <div class="absolute bottom-0 left-0 w-full h-full bg-linear-to-t from-black to-transparent z-2 transition-all duration-500 group-hover:bg-black/70"></div>
+              <h3 class="text-white text-[15px] text-nowrap translate-y-50 group-hover:translate-y-0 transition duration-300 absolute top-1/2 left-1/2 -translate-1/2 flex items-center z-4 gap-x-2">
+                  <i class="fa-solid fa-arrow-right -rotate-45"></i> <p class="text-nowrap">Klik Untuk Info Lebih Lanjut</p>
+              </h3>
+              <div class="bottom-0 left-0 p-5 pb-6 z-3 absolute text-white">
+                <p class="text-sm font-medium">270K+ TOTAL ULASAN</p>
+                <h3 class="font-semibold text-xl my-1">Pantai</h3>
+                <h6 class="font-fredoka">60K Destinasi Wisata</h6>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-element"></footer>
+
+    <script src="/script/layout/navbar.js"></script>
+    <script src="/script/layout/footer.js"></script>
+</body>
+</html> 

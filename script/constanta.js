@@ -1,0 +1,1 @@
+window.apiURL = "https://script.google.com/macros/s/AKfycbyjzeWqByYRhTV39Q2SKUqmVTjuVAfSwrS4A_QHKy1wHbUULWL0DifUVYNX1Q5KlqiFxQ/exec";

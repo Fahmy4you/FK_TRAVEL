@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script/headDependencies.js"></script>
+    <link rel="stylesheet" href="/styles/output.css">
+    <title>FK TRAVEL | Cari Penginapan</title>
+</head>
+<body>
+    <header id="navbar-element"></header>
+
+    <section class="pt-30 px-5 min-[450px]:px-10 min-[850px]:px-20">
+        <div class="flex items-center flex-col">
+            <h1 class="text-2xl min-[420px]:text-3xl min-[570px]:text-3xl md:text-4xl font-fredoka font-semibold text-center">Temukan Penginapan Terbaik Untuk Perjalananmu</h1>
+            <p class="text-[12px] min-[420px]:text-[13px] min-[570px]:text-sm md:text-[15px] text-center mt-2">Mulai petualanganmu <b>dengan mencari hotel yang nyaman</b> dan sesuai kebutuhan di tanah air Indonesia.</p>
+
+            <form class="searchingtext">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Cari Penginapan Berdasarkan Nama...">
+                </div>
+                <div id="searchlokasi">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Lokasi Prov, Kab/Kota, Kec/Kel</p>
+                </div>
+                <button id="btn_pencarian">Cari Penginapan</button>
+            </form>
+            <div class="searchingkategori">
+                <button id="plus_kategori"><i class="fa-solid fa-plus"></i></button>
+                <div id="kategori_search_konten">
+                    <p>Belum Ada Kategori Dipilih</p>
+                </div>
+                <button id="delete_all_kategori"><i class="fa-solid fa-broom"></i> <span>Hapus Semua</span></button>
+            </div>
+        </div>
+        <div class="flex items-center justify-center mt-5 min-[1000px]:hidden">
+            <button id="btn_pencarian">Cari Penginapan</button>
+        </div>
+
+        <div class="grid grid-cols-1 min-[768px]:grid-cols-2 min-[1350px]:grid-cols-3 min-[1700px]:grid-cols-4 mt-10 justify-items-center gap-8">
+            <div class="group cardpopulerberanda">
+              <div class="imagecontainer">
+                <img src="/public/images/wisata/1.jpg" alt="Image Wisata"/>
+                <div class="category-container">
+                    <span>Pegunungan</span>
+                    <span>Pegunungan</span>
+                    <span>Hiking</span>
+                </div>
+                <h3>
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i> <p class="text-nowrap">Klik Untuk Info Lebih Lanjut</p>
+                </h3>
+                <div class="masking"></div>
+              </div>
+              <div class="contenttext">
+                <div class="detailprice">
+                  <h3>Rp. 54K+ /<i class="fa-solid fa-cloud-moon"></i></h3>
+                  <a href="">Selengkapnya</a>
+                </div>
+
+                <h3 data-potongtext="25">Gunung Bromo</h3>
+                <a href=''><i class="fa-solid fa-location-dot"></i> <span data-potongtext="40">Lorem ipsum dolor sit amet consectetur</span></a>
+                <p data-potongtext="120">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate at tempora similique voluptates laboriosam.</p>
+                <div class="detailtrafik">
+                    <div><i class="fa-solid fa-message"></i> 120 Ulasan Traveler</div>
+                    <div><i class="fa-solid fa-star"></i> 4,5</div>
+                </div>
+              </div>
+            </div>
+            <div class="group cardpopulerberanda">
+              <div class="imagecontainer">
+                <img src="/public/images/wisata/1.jpg" alt="Image Wisata"/>
+                <div class="category-container">
+                    <span>Pegunungan</span>
+                    <span>Pegunungan</span>
+                    <span>Hiking</span>
+                </div>
+                <h3>
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i> <p class="text-nowrap">Klik Untuk Info Lebih Lanjut</p>
+                </h3>
+                <div class="masking"></div>
+              </div>
+              <div class="contenttext">
+                <div class="detailprice">
+                  <h3>Rp. 54K+ /<i class="fa-solid fa-cloud-moon"></i></h3>
+                  <a href="">Selengkapnya</a>
+                </div>
+
+                <h3 data-potongtext="25">Gunung Bromo</h3>
+                <a href=''><i class="fa-solid fa-location-dot"></i> <span data-potongtext="40">Lorem ipsum dolor sit amet consectetur</span></a>
+                <p data-potongtext="120">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate at tempora similique voluptates laboriosam.</p>
+                <div class="detailtrafik">
+                    <div><i class="fa-solid fa-message"></i> 120 Ulasan Traveler</div>
+                    <div><i class="fa-solid fa-star"></i> 4,5</div>
+                </div>
+              </div>
+            </div>
+            <div class="group cardpopulerberanda">
+              <div class="imagecontainer">
+                <img src="/public/images/wisata/1.jpg" alt="Image Wisata"/>
+                <div class="category-container">
+                    <span>Pegunungan</span>
+                    <span>Pegunungan</span>
+                    <span>Hiking</span>
+                </div>
+                <h3>
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i> <p class="text-nowrap">Klik Untuk Info Lebih Lanjut</p>
+                </h3>
+                <div class="masking"></div>
+              </div>
+              <div class="contenttext">
+                <div class="detailprice">
+                  <h3>Rp. 54K+ /<i class="fa-solid fa-cloud-moon"></i></h3>
+                  <a href="">Selengkapnya</a>
+                </div>
+
+                <h3 data-potongtext="25">Gunung Bromo</h3>
+                <a href=''><i class="fa-solid fa-location-dot"></i> <span data-potongtext="40">Lorem ipsum dolor sit amet consectetur</span></a>
+                <p data-potongtext="120">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate at tempora similique voluptates laboriosam.</p>
+                <div class="detailtrafik">
+                    <div><i class="fa-solid fa-message"></i> 120 Ulasan Traveler</div>
+                    <div><i class="fa-solid fa-star"></i> 4,5</div>
+                </div>
+              </div>
+            </div>
+            <div class="group cardpopulerberanda">
+              <div class="imagecontainer">
+                <img src="/public/images/wisata/1.jpg" alt="Image Wisata"/>
+                <div class="category-container">
+                    <span>Pegunungan</span>
+                    <span>Pegunungan</span>
+                    <span>Hiking</span>
+                </div>
+                <h3>
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i> <p class="text-nowrap">Klik Untuk Info Lebih Lanjut</p>
+                </h3>
+                <div class="masking"></div>
+              </div>
+              <div class="contenttext">
+                <div class="detailprice">
+                  <h3>Rp. 54K+ /<i class="fa-solid fa-cloud-moon"></i></h3>
+                  <a href="">Selengkapnya</a>
+                </div>
+
+                <h3 data-potongtext="25">Gunung Bromo</h3>
+                <a href=''><i class="fa-solid fa-location-dot"></i> <span data-potongtext="40">Lorem ipsum dolor sit amet consectetur</span></a>
+                <p data-potongtext="120">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate at tempora similique voluptates laboriosam.</p>
+                <div class="detailtrafik">
+                    <div><i class="fa-solid fa-message"></i> 120 Ulasan Traveler</div>
+                    <div><i class="fa-solid fa-star"></i> 4,5</div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bgblur"></div>
+    <div class="search_lokasi_modal">
+        <button type="button" id="tutup_lokasi_modal"><i class="fa-solid fa-x"></i></button>
+        <h3>Cari Lokasi Wisata</h3>
+        <p>Select Untuk Memilih Lokasi Wisata</p>
+        <p class="text-error-modal-lokasi hidden">Lokasi Yang Anda Pilih Tidak Valid</p>
+        
+        <form id="lokasi_form">
+            <div>
+                <h3>Lokasi Provinsi :</h3>
+                <div class="inputcontainer" id="input_prov">
+                    <input type="text" placeholder="Cari Lokasi Provinsi"/>
+                    <ul class="listcontainer"></ul>
+                </div>
+            </div>
+            <div>
+                <h3>Lokasi Kabupaten :</h3>
+                <div class="inputcontainer" id="input_kab">
+                    <input type="text" placeholder="Cari Lokasi Kab/Kota"/>
+                    <ul class="listcontainer hidden"></ul>
+                </div>
+            </div>
+            <div>
+                <h3>Lokasi Kecamatan / Kelurahan :</h3>
+                <div class="inputcontainer" id="input_kec">
+                    <input type="text" placeholder="Cari Lokasi Kec/Kel"/>
+                    <ul class="listcontainer hidden"></ul>
+                </div>
+            </div>
+
+            <button id="pilih_lokasi_btn">Pilih Lokasi</button>
+        </form>
+    </div>
+    <div class="search_kategori_modal">
+        <button type="button" id="tutup_kategori_modal"><i class="fa-solid fa-x"></i></button>
+        <h3>Cari Kategori Penginapan</h3>
+        <p>Klik Untuk Memilih Kategori Penginapan</p>
+        <p class="text-error-modal-kategori hidden">Sudah Terdapat 3 Kategori</p>
+
+        <form class="search_modal">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Cari Kategori Berdasarkan Nama...">
+            </div>
+            <button>Cari Kategori</button>
+        </form>
+        
+        <ul>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pegunungan</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Religi</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Indonesia</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+            <li>
+                <h5>Pantai</h5>
+                <p>Jumlah Wisata : <span>934</span></p>
+            </li>
+        </ul>
+    </div>
+
+    <footer id="footer-element"></footer>
+
+    <script src="/script/penginapan.js"></script>
+    <script src="/script/layout/navbar.js"></script>
+    <script src="/script/layout/footer.js"></script>
+</body>
+</html> 
