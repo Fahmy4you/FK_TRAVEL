@@ -4,7 +4,7 @@ const footerChild = `
         <div class="container-footer">
             <div class="content-utama">
                 <div class="logo-desk">
-                    <img src="/public/images/logo-light-text.png" alt="Logo">
+                    <img src="https://fahmy4you.github.io/FK_TRAVEL/public/images/logo-light-text.png" alt="Logo">
                     <p>FK Travel adalah platform informasi pariwisata dan penginapan di Indonesia yang membantu traveler menemukan tempat terbaik untuk dikunjungi. Kami berkomitmen menghadirkan informasi akurat, inspiratif, dan mudah diakses untuk mendukung perjalananmu ke berbagai destinasi di nusantara.</p>
                 </div>
                 <div class="link-cepat">
@@ -51,7 +51,7 @@ const footerChild = `
                 </a>
             </div>
             <div class="bg-vector">
-                <img src="/public/images/vector.png" alt="Vektor Footer">
+                <img src="https://fahmy4you.github.io/FK_TRAVEL/public/images/vector.png" alt="Vektor Footer">
             </div>
         </div>
         <div class="copyright-content">

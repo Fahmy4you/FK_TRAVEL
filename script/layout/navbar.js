@@ -4,26 +4,26 @@ const currentPath = window.location.pathname;
 const linksMenu = [
     {
         title: "Beranda",
-        href: "/"
+        href: "https://fahmy4you.github.io/FK_TRAVEL/"
     },
     {
         title: "Destinasi Wisata",
-        href: "/wisata.html"
+        href: "https://fahmy4you.github.io/FK_TRAVEL/wisata.html"
     },
     {
         title: "Penginapan",
-        href: "/penginapan.html"
+        href: "https://fahmy4you.github.io/FK_TRAVEL/penginapan.html"
     },
     {
         title: "List Kategori",
-        href: "/kategori.html"
+        href: "https://fahmy4you.github.io/FK_TRAVEL/kategori.html"
     },
 ]
 
 const navbarChild = `<div class="content-nav">
             <div class="image">
                 <a href="/">
-                    <img src="/public/images/logo-light-text.png" alt="Logo" />
+                    <img src="https://fahmy4you.github.io/FK_TRAVEL/public/images/logo-light-text.png" alt="Logo" />
                 </a>
             </div>
 

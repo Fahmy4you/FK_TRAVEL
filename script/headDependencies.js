@@ -17,7 +17,7 @@
     
     const outputCssLink = document.createElement("link");
     outputCssLink.rel = "stylesheet";
-    outputCssLink.href = "/styles/output.css";
+    outputCssLink.href = "https://fahmy4you.github.io/FK_TRAVEL/styles/output.css";
 
     const relIconLight = document.createElement("link");
     relIconLight.rel = "icon";
