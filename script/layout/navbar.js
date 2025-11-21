@@ -4,7 +4,7 @@ const currentPath = window.location.pathname;
 const linksMenu = [
   {
     title: "Beranda",
-    href: "",
+    href: "index.html",
   },
   {
     title: "Destinasi Wisata",
