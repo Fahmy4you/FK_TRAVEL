@@ -40,7 +40,7 @@ const navbarChild = `<div class="content-nav">
                   .join("")}
             </ul>
 
-            <a href="/koleksi.html" class="koleksi_btn"><i class="fa-solid fa-bookmark"></i> Koleksi Favoritku</a>
+            <a href="koleksi.html" class="koleksi_btn"><i class="fa-solid fa-bookmark"></i> Koleksi Favoritku</a>
 
             <div class="hamburger-navbar">
               <span></span>
@@ -60,7 +60,7 @@ const elementNavMobile = `<div class="nav-link-mobile">
                 `;
           })
           .join("")}
-        <li class="flex justify-center"><a href="/koleksi.html" class="koleksi_btn"><i class="fa-solid fa-bookmark"></i> Koleksi Favoritku</a></li>
+        <li class="flex justify-center"><a href="koleksi.html" class="koleksi_btn"><i class="fa-solid fa-bookmark"></i> Koleksi Favoritku</a></li>
     </div>`;
 
 newNavbar.classList.add("navbar-element");

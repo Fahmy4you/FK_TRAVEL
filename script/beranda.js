@@ -45,12 +45,12 @@ const observerNavScroll = new IntersectionObserver((entries) => {
 sections.forEach(section => observerNavScroll.observe(section));
 
 const logoSupporting = [
-    "/public/images/supporting/hotel1.png",
-    "/public/images/supporting/hotel2.png",
-    "/public/images/supporting/hotel3.png",
-    "/public/images/supporting/hotel4.png",
-    "/public/images/supporting/hotel5.png",
-    "/public/images/supporting/hotel6.png",
+    "public/images/supporting/hotel1.png",
+    "public/images/supporting/hotel2.png",
+    "public/images/supporting/hotel3.png",
+    "public/images/supporting/hotel4.png",
+    "public/images/supporting/hotel5.png",
+    "public/images/supporting/hotel6.png",
 ]
 
 for(let i = 0; i < 3; i++) {
